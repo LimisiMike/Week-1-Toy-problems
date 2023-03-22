@@ -2,23 +2,13 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/LimisiMike/Week-1-Toy-problems/edit/main/README.md">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
-  </a>
+  <a href="https://github.com/LimisiMike/Week-1-Toy-problems/edit/main/README.md"></a>
 
   <h3 align="center">Week 1 Toy problems Prerequisites</h3>
 
   <p align="center">
-    An awesome README template to jumpstart your projects!
+    Amazing Toy Problems to play around with!
     <br />
-    <a href="https://github.com/othneildrew/Best-README-Template"><strong>Explore the docs »</strong></a>
-    <br />
-    <br />
-    <a href="https://github.com/othneildrew/Best-README-Template">View Demo</a>
-    ·
-    <a href="https://github.com/othneildrew/Best-README-Template/issues">Report Bug</a>
-    ·
-    <a href="https://github.com/othneildrew/Best-README-Template/issues">Request Feature</a>
   </p>
 </div>
 
@@ -30,9 +20,6 @@
   <ol>
     <li>
       <a href="#about-the-project">About The Project</a>
-      <ul>
-        <li><a href="#built-with">Built With</a></li>
-      </ul>
     </li>
     <li>
       <a href="#getting-started">Getting Started</a>
@@ -41,12 +28,10 @@
         <li><a href="#installation">Installation</a></li>
       </ul>
     </li>
-    <li><a href="#usage">Usage</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
-    <li><a href="#contributing">Contributing</a></li>
-    <li><a href="#license">License</a></li>
-    <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgments">Acknowledgments</a></li>
+    <li><a href="#challenge1">Challenge 1: Student Grade Generator (Toy Problem)</a></li>
+    <li><a href="#challenge2">Challenge 2: Speed Detector (Toy Problem)</a></li>
+    <li><a href="#challenge3">Challenge 3: Net Salary Calculator (Toy Problem)</a></li>
+    <li><a href="#Extras">Extra Practice Questions:</a></li>
   </ol>
 </details>
 
@@ -54,19 +39,12 @@
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
+What is a Toy Problem?
+A toy problem is a small, simplified, and often unrealistic problem that is used to teach or demonstrate a concept, algorithm, or technique. It is called a "toy" problem because it is not intended to be a real-world problem, but rather a simplified version that allows you to focus on the fundamental principles involved.
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+For example, a toy problem in machine learning might involve training a model to recognize handwritten digits using a small dataset of only a few hundred examples, while a real-world problem might involve training a model to recognize handwritten text using millions of examples. The toy problem is useful for understanding the basic concepts of machine learning and getting started with implementing algorithms, but it does not fully capture the complexity of the real-world problem.
 
-There are many great README templates available on GitHub; however, I didn't find one that really suited my needs so I created this enhanced one. I want to create a README template so amazing that it'll be the last one you ever need -- I think this is it.
-
-Here's why:
-* Your time should be focused on creating something amazing. A project that solves a problem and helps others
-* You shouldn't be doing the same tasks over and over like creating a README from scratch
-* You should implement DRY principles to the rest of your life :smile:
-
-Of course, no one template will serve all projects since your needs may be different. So I'll be adding more in the near future. You may also suggest changes by forking this repo and creating a pull request or opening an issue. Thanks to all the people have contributed to expanding this template!
-
-Use the `BLANK_README.md` to get started.
+Overall, toy problems can be useful for beginners or for exploring new concepts, but they should not be mistaken for real-world problems, which often require much more data, computational resources, and domain-specific knowledge.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -74,16 +52,7 @@ Use the `BLANK_README.md` to get started.
 
 ### Built With
 
-This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
-
-* [![Next][Next.js]][Next-url]
-* [![React][React.js]][React-url]
-* [![Vue][Vue.js]][Vue-url]
-* [![Angular][Angular.io]][Angular-url]
-* [![Svelte][Svelte.dev]][Svelte-url]
-* [![Laravel][Laravel.com]][Laravel-url]
-* [![Bootstrap][Bootstrap.com]][Bootstrap-url]
-* [![JQuery][JQuery.com]][JQuery-url]
+This project is purely based on JavaScript.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -92,151 +61,96 @@ This section should list any major frameworks/libraries used to bootstrap your p
 <!-- GETTING STARTED -->
 ## Getting Started
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
+We'll be solving the Toy Problems as we sharpen our skills in JS here! :)
 
 ### Prerequisites
+1. Create a repository on your GitHub account. 
 
-This is an example of how to list things you need to use the software and how to install them.
-* npm
-  ```sh
-  npm install npm@latest -g
-  ```
+NB: One folder, with 3-4 files for each solution. Please note that a single file should only hold one solution.
+
+2. Use JavaScript to wire down the solution.
+
+3. Push the solution to the above repository once done.
+
+4. Submit the repository link for grading.
+
+5. Ensure your repository has a well written README.
+
+NOTE: You are required to complete ALL the challenges.
 
 ### Installation
 
-_Below is an example of how you can instruct your audience on installing and setting up your app. This template doesn't rely on any external dependencies or services._
-
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
-   ```sh
-   git clone https://github.com/your_username_/Project-Name.git
-   ```
-3. Install NPM packages
-   ```sh
-   npm install
-   ```
-4. Enter your API in `config.js`
-   ```js
-   const API_KEY = 'ENTER YOUR API';
-   ```
+Guess What? No installations needed!
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
+###LET'S GOO..
 
-<!-- USAGE EXAMPLES -->
-## Usage
+Challenge 1: Student Grade Generator (Toy Problem)
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
+Write a function that prompts the user to input student marks. The input should be between 0 and 100. The output should correspond the correct grade, as shown below: 
 
-_For more examples, please refer to the [Documentation](https://example.com)_
+        A > 79, B - 60 to 79, C -  59 to 49, D - 40 to 49, E - less 40.
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+ 
 
+Challenge 2: Speed Detector (Toy Problem)
 
+Write a program that takes the speed of a car as input e.g 80. If the speed is less than 70, it should print “Ok”. Otherwise, for every 5 km/s above the speed limit (70), it should give the driver one demerit point and print the total number of demerit points.
 
-<!-- ROADMAP -->
-## Roadmap
+   > For example, if the speed is 80, it should print: “Points: 2”. If the driver gets more than 12 points, the function should print: “License suspended”.
 
-- [x] Add Changelog
-- [x] Add back to top links
-- [ ] Add Additional Templates w/ Examples
-- [ ] Add "components" document to easily copy & paste sections of the readme
-- [ ] Multi-language Support
-    - [ ] Chinese
-    - [ ] Spanish
+ 
 
-See the [open issues](https://github.com/othneildrew/Best-README-Template/issues) for a full list of proposed features (and known issues).
+Challenge 3: Net Salary Calculator (Toy Problem)
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+Write a program whose major task is to calculate an individual’s Net Salary by getting the inputs of basic salary and benefits. Calculate the payee (i.e. Tax), NHIF Deductions, NSSF Deductions, gross salary, and net salary. 
 
+NB: Use KRA, NHIF, and NSSF values provided in the link below.
 
+- https://www.aren.co.ke/payroll/taxrates.htm Links to an external site.
 
-<!-- CONTRIBUTING -->
-## Contributing
+Links to an external site.-  Links to an external site.Links to an external site.
 
-Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
-
-If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
-Don't forget to give the project a star! Thanks again!
-
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+- www.kra.go.ke/en/individual/calculate-tax/calculating-tax/payeLinks to an external site.
 
 
+Extra Practice Questions:
 
-<!-- LICENSE -->
-## License
+(BubbleSort)
+1. Write a function that takes an array of numbers as input. It should output an array of those same numbers sorted from lowest to highest.
 
-Distributed under the MIT License. See `LICENSE.txt` for more information.
+sample input = [5,6,1,3,4,2]
+Expected output = [1,2,3,4,5,6]
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
-<!-- CONTACT -->
-## Contact
-
-Your Name - [@your_twitter](https://twitter.com/your_username) - email@example.com
-
-Project Link: [https://github.com/your_username/repo_name](https://github.com/your_username/repo_name)
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+Research Areas: 
+1. Loops 
+2. Array Methods 
 
 
+(Loops)
+2. Staircase problem 
+Create a function that takes an integer and console logs a step shaped stair with the integer levels using the # character 
 
-<!-- ACKNOWLEDGMENTS -->
-## Acknowledgments
+e.g steps(2)  #
+              ##
 
-Use this space to list resources you find helpful and would like to give credit to. I've included a few of my favorites to kick things off!
+    steps(3)  #
+              ##
+              ###
 
-* [Choose an Open Source License](https://choosealicense.com)
-* [GitHub Emoji Cheat Sheet](https://www.webpagefx.com/tools/emoji-cheat-sheet)
-* [Malven's Flexbox Cheatsheet](https://flexbox.malven.co/)
-* [Malven's Grid Cheatsheet](https://grid.malven.co/)
-* [Img Shields](https://shields.io)
-* [GitHub Pages](https://pages.github.com)
-* [Font Awesome](https://fontawesome.com)
-* [React Icons](https://react-icons.github.io/react-icons/search)
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
+Research Areas 
+1. Array methods 
+2. Nested Loops
+3. Conditional statements
 
 
-<!-- MARKDOWN LINKS & IMAGES -->
-<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/othneildrew/Best-README-Template.svg?style=for-the-badge
-[contributors-url]: https://github.com/othneildrew/Best-README-Template/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/othneildrew/Best-README-Template.svg?style=for-the-badge
-[forks-url]: https://github.com/othneildrew/Best-README-Template/network/members
-[stars-shield]: https://img.shields.io/github/stars/othneildrew/Best-README-Template.svg?style=for-the-badge
-[stars-url]: https://github.com/othneildrew/Best-README-Template/stargazers
-[issues-shield]: https://img.shields.io/github/issues/othneildrew/Best-README-Template.svg?style=for-the-badge
-[issues-url]: https://github.com/othneildrew/Best-README-Template/issues
-[license-shield]: https://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=for-the-badge
-[license-url]: https://github.com/othneildrew/Best-README-Template/blob/master/LICENSE.txt
-[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: https://linkedin.com/in/othneildrew
-[product-screenshot]: images/screenshot.png
-[Next.js]: https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white
-[Next-url]: https://nextjs.org/
-[React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
-[React-url]: https://reactjs.org/
-[Vue.js]: https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vuedotjs&logoColor=4FC08D
-[Vue-url]: https://vuejs.org/
-[Angular.io]: https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white
-[Angular-url]: https://angular.io/
-[Svelte.dev]: https://img.shields.io/badge/Svelte-4A4A55?style=for-the-badge&logo=svelte&logoColor=FF3E00
-[Svelte-url]: https://svelte.dev/
-[Laravel.com]: https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white
-[Laravel-url]: https://laravel.com
-[Bootstrap.com]: https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white
-[Bootstrap-url]: https://getbootstrap.com
-[JQuery.com]: https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white
-[JQuery-url]: https://jquery.com 
+(Objects)
+3. Write a JavaScript program to get the volume of a Cylinder with four decimal places using object classes.
+Volume of a cylinder : V = πr2h where r is the radius and h is the height of the cylinder.
+
+Research Areas 
+1. Objects. 
+2. Object constructor.
+3. constructor templates.
